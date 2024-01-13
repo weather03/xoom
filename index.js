@@ -39,6 +39,6 @@ io.on('connection', socket => {
   })
 })
 
-app.listen(process.env.PORT || 3200, function(req, res){
+app.listen(process.env.PORT || 3000, function(req, res){
 	console.log("server started on")
 });
